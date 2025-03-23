@@ -41,42 +41,10 @@ Elle repose sur une architecture multi-technologies :
 - Python 3.x
 - MySQL ou PostgreSQL
 
-### 📦 Installation du Backend (Laravel)
-```bash
-# Cloner le dépôt
-git clone https://github.com/username/repository.git
-cd repository/backend
-
-# Installer les dépendances
-composer install
-
-# Configurer l'environnement
-cp .env.example .env
-php artisan key:generate
-
-# Migrer la base de données
-php artisan migrate --seed
-
-# Lancer le serveur
-php artisan serve
-```
-
-### 🎨 Installation de l'Interface Java
-```bash
-cd repository/frontend
-# Compiler et exécuter l'application
-javac Main.java
-java Main
-```
-
-### 🤖 Installation du Système de Modération Python
-```bash
-cd repository/moderation
-pip install -r requirements.txt
-python moderation.py
-```
-
 ## 📸 Aperçu
+
+### Laravel
+
 
 ![Screenshot](https://via.placeholder.com/800x400)
 
