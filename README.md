@@ -45,8 +45,21 @@ Elle repose sur une architecture multi-technologies :
 
 ### Laravel
 
+![Login and Signup](https://github.com/user-attachments/assets/acb93e2c-fe2a-4045-a674-09cdfcd0783d)
 
-![Screenshot](https://via.placeholder.com/800x400)
+![Image](https://github.com/user-attachments/assets/3122a9c0-f119-4782-ad17-18af300eb32b)
+
+![Image](https://github.com/user-attachments/assets/63e4cdf5-f9bd-469a-b973-334c570accfe)
+
+![Image](https://github.com/user-attachments/assets/11075395-f4bb-4992-9dc3-9843602c2199)
+
+![Image](https://github.com/user-attachments/assets/d391fe81-b87d-4a76-ba6f-8c8d06689f04)
+
+![Image](https://github.com/user-attachments/assets/b947d699-0da7-4688-9aee-5f9d1b2b3e40)
+
+![Image](https://github.com/user-attachments/assets/d0766b2a-0755-4037-b4fa-4af4bb76e414)
+
+###Java
 
 ## 🔗 Technologies Utilisées
 
