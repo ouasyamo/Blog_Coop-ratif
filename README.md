@@ -1,71 +1,85 @@
-<<<<<<< HEAD
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# 📝 Plateforme de Blog Collaboratif (Système de Gestion de Contenu)
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+![GitHub repo size](https://img.shields.io/github/repo-size/ouasyamo/Blog_Coop-ratif)
+![GitHub contributors](https://img.shields.io/github/contributors/username/repository)
+![GitHub stars](https://img.shields.io/github/stars/username/repository?style=social)
+![GitHub license](https://img.shields.io/github/license/username/repository)
 
-## About Laravel
+## 🌟 Description
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Cette plateforme de blog collaboratif permet aux utilisateurs de publier, modifier et commenter des articles grâce à un système de gestion de contenu (CMS). 
+Elle repose sur une architecture multi-technologies :
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+- **Laravel** pour la gestion des articles et des utilisateurs.
+- **Java** pour une application de gestion des articles et des commentaires.
+- **Python** pour l'automatisation de la modération des commentaires.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## ✨ Fonctionnalités
 
-## Learning Laravel
+- ✅ Création, modification et suppression d'articles
+- ✅ Gestion des utilisateurs (admin, auteur, lecteur)
+- ✅ Publication et consultation d'articles via une interface Java
+- ✅ Commentaires sur les articles
+- ✅ Modération automatique des commentaires (détection de mots interdits et spam via Python)
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## 🏗 Architecture du Projet
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+```
+📂 blog-platform
+ ├── 📁 backend (Laravel - API et gestion du CMS)
+ ├── 📁 frontend (Java - Interface utilisateur)
+ ├── 📁 moderation (Python - Filtrage des commentaires)
+ ├── 📄 README.md
+ ├── 📄 LICENSE
+```
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## 🛠 Installation
 
-## Laravel Sponsors
+### 📌 Prérequis
+- PHP 8.x et Composer
+- Java 11+
+- Python 3.x
+- MySQL ou PostgreSQL
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+## 📸 Aperçu
 
-### Premium Partners
+### Laravel
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+![Login and Signup](https://github.com/user-attachments/assets/acb93e2c-fe2a-4045-a674-09cdfcd0783d)
 
-## Contributing
+![Image](https://github.com/user-attachments/assets/3122a9c0-f119-4782-ad17-18af300eb32b)
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+![Image](https://github.com/user-attachments/assets/63e4cdf5-f9bd-469a-b973-334c570accfe)
 
-## Code of Conduct
+![Image](https://github.com/user-attachments/assets/11075395-f4bb-4992-9dc3-9843602c2199)
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+![Image](https://github.com/user-attachments/assets/d391fe81-b87d-4a76-ba6f-8c8d06689f04)
 
-## Security Vulnerabilities
+![Image](https://github.com/user-attachments/assets/b947d699-0da7-4688-9aee-5f9d1b2b3e40)
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+![Image](https://github.com/user-attachments/assets/d0766b2a-0755-4037-b4fa-4af4bb76e414)
 
-## License
+###Java
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-=======
-# Blog_Coop-ratif
-Système de gestion de contenu (CMS) en Laravel pour un blog collaboratif, avec interface utilisateur en JavaFX et modération automatique en Python.
->>>>>>> a16620c7bd2c50ccccd8a55fe5eca6e309931139
+## 🔗 Technologies Utilisées
+
+- ⚡ **Laravel** - Gestion du CMS et API
+- ☕ **Java** - Interface utilisateur et gestion des articles/commentaires
+- 🐍 **Python** - Automatisation et modération des commentaires
+
+## 🤝 Contribution
+
+1. Forker le projet
+2. Créer une branche (`git checkout -b feature-branch`)
+3. Commiter vos modifications (`git commit -m 'Ajout d'une nouvelle fonctionnalité'`)
+4. Pousser la branche (`git push origin feature-branch`)
+5. Ouvrir une Pull Request
+
+## 📜 Licence
+
+Ce projet est sous licence **MIT** - voir le fichier [LICENSE](LICENSE) pour plus de détails.
+
+## 📬 Contact
+
+✉️ Email : your.email@example.com  
+🔗 LinkedIn : [Votre Profil](https://linkedin.com/in/yourprofile)
