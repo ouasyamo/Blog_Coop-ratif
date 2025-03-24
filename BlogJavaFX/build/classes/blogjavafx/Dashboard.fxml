@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="blogjavafx.DashboardController">
+    <TableView fx:id="tablePosts" layoutX="14.0" layoutY="14.0" prefWidth="600.0" prefHeight="400.0">
+        <columns>
+            <TableColumn fx:id="idCol" text="ID" prefWidth="50"/>
+            <TableColumn fx:id="titleCol" text="Title" prefWidth="200"/>
+            <TableColumn fx:id="slugCol" text="Slug" prefWidth="200"/>
+            <TableColumn fx:id="publishedAtCol" text="Published At" prefWidth="150"/>
+        </columns>
+    </TableView>
+</AnchorPane>

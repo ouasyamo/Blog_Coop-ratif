@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="BlogJavaFX.jnlp">
+  <information>
+    <title>BlogJavaFX</title>
+    <vendor>DELL</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="BlogJavaFX.jar" size="22644" download="eager" />
+    <jar href="lib\jbcrypt-0.4.jar" size="17429" download="eager" />
+    <jar href="lib\mysql-connector-j-9.2.0.jar" size="2609756" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="BlogJavaFX" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="blogjavafx.LoginView"  name="BlogJavaFX" />
+  <update check="always"/>
+</jnlp>
